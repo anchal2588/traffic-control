@@ -1,33 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 03 07:30:34 2014
 
-@author: tim.meggs
-"""
 import itertools
 import numpy as np
 from membership import mfDerivs
 import copy
 
 class ANFIS:
-    """Class to implement an Adaptive Network Fuzzy Inference System: ANFIS"
-
-    Attributes:
-        X
-        Y
-        XLen
-        memClass
-        memFuncs
-        memFuncsByVariable
-        rules
-        consequents
-        errors
-        memFuncsHomo
-        trainingType
-
-
-    """
-
     def __init__(self, X, Y, memFunction):
         self.X = np.array(copy.copy(X))
         self.Y = np.array(copy.copy(Y))
