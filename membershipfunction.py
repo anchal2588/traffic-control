@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 31 15:41:58 2014
-
-@author: tim.meggs
-"""
 
 from skfuzzy import gaussmf, gbellmf, sigmf, trimf
 
